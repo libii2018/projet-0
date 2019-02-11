@@ -1,0 +1,89 @@
+/*Body*/
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+/***************First card***************/
+
+.card-first{
+    margin: 100px;
+    padding: 0;
+}
+
+.card{
+    padding: 15px;
+    position: relative;
+    width: 330px !important;
+    height: 354px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4%;
+    overflow: hidden;
+    margin: 0 3%;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.card .overlay .categorie{
+    position: absolute;
+    font-size: 1.5em;
+    top: 40%;
+    font-weight: 1000;
+}
+
+.card .overlay .zone{
+    position: absolute;
+    font-size: 1.5em;
+    top: 60%;
+}
+
+
+
+/*card-first-1*/
+
+#card-first-1 {
+    background-image: url('../images/image_ (1).jpg');
+}
+
+#card-first-1 .overlay{
+    background-color: rgba(255,0,0,0.3);
+}
+
+/*card-first-2*/
+
+#card-first-2 {
+    background-image: url('../images/image_ (2).jpg');
+}
+
+#card-first-2 .overlay{
+    background-color: rgba(255,255,0,0.3);
+}
+
+/*card-first-3*/
+
+#card-first-3 {
+    background-image: url('../images/image_ (3).jpg');
+}
+
+#card-first-3 .overlay{
+    background-color: rgba(0,255,0,0.3);
+}
+
+/*card-first-4*/
+
+#card-first-4 {
+    background-image: url('../images/image_ (4).jpg');
+}
+
+#card-first-4 .overlay{
+    background-color: rgba(0,255,255,0.3);
+}
