@@ -57,9 +57,65 @@ a{
     border: none;
     padding: 3% 10%;
     text-align: center;
-    font-size: 1.8em;
+    font-size: 2.8em;
     cursor: pointer;
     margin: 18% auto;
   
 }
 
+/***************Section Categorie***************/
+
+.section-categorie{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-categorie article{
+    width: 100%;
+    margin: 1.25em 0 4.5em 0;
+    display: block;
+    padding: 0;
+}
+
+.section-categorie .article .image{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.section-categorie .article .image img{
+    display: block;
+    width: 100%;
+}
+
+.section-categorie .article .contenu-text-categorie{
+    margin: 1.25em;
+    text-align: center;
+}
+
+.section-categorie .article .contenu-text-categorie .titre-1{
+    color: #707070;
+    font-size: 2.25em;
+    font-weight: 600;
+    margin: 1em 0 0 0;
+}
+
+.section-categorie .article .contenu-text-categorie .titre-2{
+    color: #106CA4;
+    font-size: 5.25em;
+    font-weight: 800;
+    margin: 0.1 0 1em 0;
+}
+
+.section-categorie .article .contenu-text-categorie .paragraphe{
+    color: #707070;
+    font-size: 2.25em;
+}
+
+.section-categorie .article .contenu-text-categorie .btn-categorie{
+    font-size: 2.8em;
+    color: #106CA4;
+}
