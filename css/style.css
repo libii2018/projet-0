@@ -5,85 +5,61 @@ body{
     padding: 0;
 }
 
-/***************First card***************/
+a{
+    text-decoration: none;
+}
 
-.card-first{
-    margin: 100px;
+/***************slider categorie***************/
+
+.slider{
+    margin: 2em 0;
+}
+
+.header-card{
+    width: 45%;
+    margin-left: 10em;
+    height: 20em;
     padding: 0;
+    background-size: cover !important;
 }
 
-.card{
-    padding: 15px;
-    position: relative;
-    width: 330px !important;
-    height: 354px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 4%;
-    overflow: hidden;
-    margin: 0 3%;
-}
-
-.overlay{
-    position: absolute;
+.card-overlay {
     width: 100%;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    height: 100%;
+    background: rgba(255,0,0,0.3);
+    margin: 0;
 }
 
-.card .overlay .categorie{
-    position: absolute;
-    font-size: 1.5em;
-    top: 40%;
-    font-weight: 1000;
+/* Header Image */
+
+.header-img-1{
+    background: url('../images/image_ (1).jpg');
 }
 
-.card .overlay .zone{
-    position: absolute;
-    font-size: 1.5em;
-    top: 60%;
+.header-img-2{
+    background: url('../images/image_ (2).jpg');
 }
 
-
-
-/*card-first-1*/
-
-#card-first-1 {
-    background-image: url('../images/image_ (1).jpg');
+.header-img-3{
+    background: url('../images/image_ (3).jpg');
 }
 
-#card-first-1 .overlay{
-    background-color: rgba(255,0,0,0.3);
+.header-img-4{
+    background: url('../images/image_ (4).jpg');
 }
 
-/*card-first-2*/
+/***************Discover***************/
 
-#card-first-2 {
-    background-image: url('../images/image_ (2).jpg');
+.btn-discover{
+    width: 15%;
+    background-color: #106CA4;
+    border: none;
+    color: white;
+    padding: 2% 10%;
+    text-align: center;
+    font-size: 0.9em;
+    cursor: pointer;
+    margin: 18% auto;
+  
 }
 
-#card-first-2 .overlay{
-    background-color: rgba(255,255,0,0.3);
-}
-
-/*card-first-3*/
-
-#card-first-3 {
-    background-image: url('../images/image_ (3).jpg');
-}
-
-#card-first-3 .overlay{
-    background-color: rgba(0,255,0,0.3);
-}
-
-/*card-first-4*/
-
-#card-first-4 {
-    background-image: url('../images/image_ (4).jpg');
-}
-
-#card-first-4 .overlay{
-    background-color: rgba(0,255,255,0.3);
-}

@@ -8,74 +8,53 @@
     <title>Proto</title>
 </head>
 <body>
-    <!--card first-->
+    <!--slide-categorie-->
 
-    <div class="card-first">
-
-        <!--card 1-->
-
-        <div id="card-first-1" class="card">
-            <div class="overlay">
-                <div class="categorie">IT</div>
-                <div class="zone">Zone</div>
+    <div class="slider">
+        <div class="header-card header-img-1">
+            <div class="card-overlay">
+                <h1>IT</h1>
+                <p>Zone</p>
             </div>
         </div>
 
-        <!--card 2-->
-
-        <div id="card-first-2" class="card">
-            <div class="overlay">
-                <div class="categorie">IT</div>
-                <div class="zone">Zone</div>
+        <div class="header-card header-img-2">
+            <div class="card-overlay">
+                <h1>IT</h1>
+                <p>Zone</p>
             </div>
         </div>
 
-        <!--card 3-->
-
-        <div id="card-first-3" class="card">
-            <div class="overlay">
-                <div class="categorie">IT</div>
-                <div class="zone">Zone</div>
+        <div class="header-card header-img-3">
+            <div class="card-overlay">
+                <h1>IT</h1>
+                <p>Zone</p>
             </div>
         </div>
 
-        <!--card 4-->
-
-        <div id="card-first-4" class="card">
-            <div class="overlay">
-                <div class="categorie">IT</div>
-                <div class="zone">Zone</div>
+        <div class="header-card header-img-4">
+            <div class="card-overlay">
+                <h1>IT</h1>
+                <p>Zone</p>
             </div>
         </div>
-        <!--card 5-->
-
-        <div id="card-first-4" class="card">
-            <div class="overlay">
-                <div class="categorie">IT</div>
-                <div class="zone">Zone</div>
-            </div>
-        </div>
-        <!--card 6-->
-
-        <div id="card-first-4" class="card">
-            <div class="overlay">
-                <div class="categorie">IT</div>
-                <div class="zone">Zone</div>
-            </div>
-        </div>
-    
     </div>
+
+    <div class="btn-discover"><a href="#">Discover More</a></div>
+    
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
 
    <script>
-        $('.card-first').slick({
-            centerPadding: '20px',
+
+        $('.slider').slick({
             slidesToShow: 3,
+            slidesToScroll: 1,
             arrows: false,
-            mobileFirst: true
+            prevArrow:'<a class="btn"><img src="images/Groupe39.png" class="slick-ml slick-prev"/></a>',
+            nextArrow:'<a class="btn"><img src="images/Groupe38.png" class="slick-mr slick-next"/></a>',
         });
-    </script>--> 
+    </script>
 </body>
 </html>
