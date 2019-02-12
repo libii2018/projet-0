@@ -13,6 +13,7 @@ a{
 
 .slider{
     margin: 2em 0;
+    color: white;
 }
 
 .header-card{
@@ -54,7 +55,6 @@ a{
     width: 15%;
     background-color: #106CA4;
     border: none;
-    color: white;
     padding: 2% 10%;
     text-align: center;
     font-size: 0.9em;
