@@ -52,12 +52,12 @@ a{
 /***************Discover***************/
 
 .btn-discover{
-    width: 15%;
+    width: 18%;
     background-color: #106CA4;
     border: none;
-    padding: 2% 10%;
+    padding: 3% 10%;
     text-align: center;
-    font-size: 0.9em;
+    font-size: 1.8em;
     cursor: pointer;
     margin: 18% auto;
   
