@@ -7,13 +7,13 @@ body{
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 /***************slider categorie***************/
 
 .slider{
     margin: 2em 0;
-    color: white;
 }
 
 .header-card{
